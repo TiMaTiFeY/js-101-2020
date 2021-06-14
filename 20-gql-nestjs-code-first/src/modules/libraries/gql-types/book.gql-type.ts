@@ -10,5 +10,5 @@ export class Book {
   title: string;
 
   @Field(() => Author)
-  author: Author
+  author: Author;
 }
