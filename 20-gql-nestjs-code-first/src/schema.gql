@@ -33,4 +33,5 @@ type Query {
 
 type Mutation {
   addAuthor(firstName: String!, middleName: String, lastName: String, birthDate: String, deathDate: String): Author!
+  addBook(id: String, title: String, publicationDate: String, author_id: Float): Book!
 }
